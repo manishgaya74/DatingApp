@@ -15,6 +15,7 @@ namespace DatingApp.API.Controllers
         private readonly DataContext _context;
         public ValuesController(DataContext context)
         {
+            //Injects entityframework db context object
             this._context = context;
 
         }
